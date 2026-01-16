@@ -25,6 +25,7 @@
 
 #define OLED_RESET     -1   // Reset pin # (or -1 if sharing Arduino reset pin)
 #define SCREEN_ADDRESS 0x3C // If not work please scan the bus
+//you might need to switch the sda and scl gpio depending on the model you have
 #define OLED_SDA 14         // D6
 #define OLED_SCL 12         // D5
 
